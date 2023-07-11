@@ -1,0 +1,91 @@
+.connect-container{
+    width: 100%;
+    height: 566px;
+    border: 1px;
+    margin-left: 130px;
+    padding: 0px;
+    margin-top: 60px;
+}
+.connect-section-head{
+    margin: 0px;
+    margin-bottom: 24px;
+    width: 984px;
+}
+.connects{
+    width: 88px;
+    height: 38px;
+    border: 1px solid #D1CBB5;
+    padding: 8px;
+}
+.connect{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #D1CBB5;
+}
+.connect-section-body{
+    margin: 0px;
+    width: 984px;
+    height: 380px;
+}
+.social-handles{
+    padding: 0px;
+    width: 85px;
+    height: 302px;
+    display: flex;
+    flex-direction: column;
+}
+.social-media{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #D1CBB5;
+    height: 20%;
+    text-align: center;
+    /*write something to align them centrally in y dirn.*/
+}
+.project-handles{
+    padding: 0px;
+    height: 241px;
+    display: flex;
+    flex-direction: column;
+}
+.projects-link{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #D1CBB5;
+    height: 25%;
+}
+.last-remarks{
+    padding: 98px 128px 99px 127px;
+    padding-top: 0px;
+}
+.remark-box{
+    width: 440px;
+    height: 183px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.remark{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61.25px;
+    color: #D1CBB5;
+    margin-bottom: 0px;
+}
+.connect-section-footer{
+    height: 96px;
+    margin: 0px;
+    width: 984px;
+    display: flex;
+    justify-content: center;
+}
+.dc-logo{
+    width: 96px;
+    height: 96px;
+}

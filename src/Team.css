@@ -1,0 +1,46 @@
+.team-container{
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 984px;
+    margin-bottom: 132px;
+    padding: 0px;
+}
+.team-section-head{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.team{
+    width: 63px;
+    height: 38px;
+    border: 1px solid #D1CBB5;
+    padding: 8px;
+    margin-top: 13px;
+}
+.teams{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #D1CBB5;
+}
+.blank, .team-desc-button-box{
+    padding: 0px;
+}
+.team-desc-button{
+    width: 160px;
+    height: 64px;
+    padding: 21px 16px 21px 16px;
+    color: #050505;
+    fill: #D1CBB5;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: center;
+}
+.team-section-body{
+    width: 984px;
+    height: 480px;
+    background-color: #262626;
+    margin: 48px 0px 12px 0px;
+}

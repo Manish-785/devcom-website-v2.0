@@ -1,0 +1,68 @@
+.About-us-container{
+    margin-left: 11.5%;
+    width: 77%;
+    padding: 0px;
+}
+.About-us-content{
+    width: 100%;
+    margin: 0px;
+}
+.text-column,.image-column{
+    height: 560px;
+    padding: 0px;
+    position: relative;
+}
+.text-column{
+    width: 48.5%;
+}
+.image-column{
+    width: 51.5%;
+}
+.About-us, .About-work{
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+}
+.About-us-title, .About-work-title{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 64px;
+    color: #D1CBB5;
+    line-height: 64px;
+}
+/*font size can't be reduced by percentage use media method to reduce it or search.*/
+.About-us-desc, .About-work-desc{
+    color: #D1CBB5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.terminal-img{
+    width: 85%;
+    height: 86%;
+    position: absolute;
+    left: 30px;
+    top: -60px;
+}
+.arrow-img{
+    width: 41%;
+    height: 38%;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+.colorpicker-img{
+    width: 85%;
+    height: 86%;
+    position: absolute;
+    left: 220px;
+    top: 220px;
+}
+.colordropper-img{
+    width: 49%;
+    height: 52%;
+    position: absolute;
+    left: 75px;
+    top: 410px;
+}
