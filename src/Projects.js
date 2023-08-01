@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./Projects.css";
-import resobin from "./Resobin.png";
+import resobin from "./Resobin_img.png";
 
 function Projects() {
   const projectSliderRef = useRef(null);
@@ -10,12 +10,10 @@ function Projects() {
   const numVisibleCards = 2;
 
   const scrollProjectSlider = (scrollOffset) => {
-    console.log("reached");
     setScrollPosition(
       (prevScrollPosition) => prevScrollPosition + scrollOffset
     );
     projectSliderRef.current.scrollLeft += scrollOffset;
-    console.log(scrollPosition);
   };
 
   const handleResize = () => {
@@ -36,16 +34,15 @@ function Projects() {
   return (
     <div className="container project-container">
       <div className="row project-head">
-        <div className="col-2 project">
+        <div className="project">
           <p className="projects">Projects</p>
         </div>
-        <div className="col-9"></div>
-        <div className="col-1 arrow-buttons">
+        <div className="arrow-buttons">
           <button
             className="arrow-left"
             onClick={() => {
               console.log(-cardWidth);
-              scrollProjectSlider(-(cardWidth + 12));
+              scrollProjectSlider(-cardWidth);
             }}
           >
             <svg
@@ -61,7 +58,7 @@ function Projects() {
           </button>
           <button
             className="arrow-right"
-            onClick={() => scrollProjectSlider(cardWidth + 12)}
+            onClick={() => scrollProjectSlider(cardWidth)}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +80,7 @@ function Projects() {
               <p className="project-title">Resobin</p>
             </div>
             <div className="project-image-box">
-              <img className="project-image" src={resobin} alt="resobin logo" />
+              <img className="project-img" src={resobin} alt="resobin logo" />
             </div>
           </div>
           <div className="project-card">
@@ -91,7 +88,7 @@ function Projects() {
               <p className="project-title">InstiApp</p>
             </div>
             <div className="project-image-box">
-              <img className="project-image" src={resobin} alt="resobin logo" />
+              <img className="project-img" src={resobin} alt="resobin logo" />
             </div>
           </div>
           <div className="project-card">
@@ -99,7 +96,7 @@ function Projects() {
               <p className="project-title">Mess-I</p>
             </div>
             <div className="project-image-box">
-              <img className="project-image" src={resobin} alt="resobin logo" />
+              <img className="project-img" src={resobin} alt="resobin logo" />
             </div>
           </div>
           <div className="project-card last-card">
@@ -107,7 +104,7 @@ function Projects() {
               <p className="project-title">NewBee</p>
             </div>
             <div className="project-image-box">
-              <img className="project-image" src={resobin} alt="resobin logo" />
+              <img className="project-img" src={resobin} alt="resobin logo" />
             </div>
           </div>
         </div>

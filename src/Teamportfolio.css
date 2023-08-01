@@ -1,0 +1,161 @@
+.navbar{
+    height: 64px;
+    background-color: transparent;
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 56px;
+  }
+  .container-fluid{
+    padding: 0px;
+    height: 100%;
+  }
+  .navbar-brand, .nav-link{
+    color: #f2f2f2;;
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 64px;
+    border: 1px solid #f2f2f2;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+  }
+  .navbar-brand{
+    width: 26.8%;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  .collapse{
+    width: 50.2%;
+    height: 100%;
+  }
+  .navbar-nav{
+    width: 100%;
+    height: 100%;
+  }
+  .nav-link{
+    text-align: center;
+    width: 20%;
+  }
+  .navbar-brand:hover, .nav-link:hover{
+    color: #f2f2f2;;
+  }
+  @media (min-width: 576px) {
+    .top-bar{
+      height: 28px;
+      width: 100%;
+      margin-bottom: 32px;
+      background-color:#2A2A2A;
+    }
+  }
+  .outer-team-container{
+    width: 77%;
+    margin-left: 11.5%;
+    padding: 0px;
+  }
+  .head-section{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .heading{
+    width: 100%;
+    height: 64px;
+    margin-bottom: 16px;
+  }
+  .headings{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #f2f2f2;
+  }
+  .content{
+    width: 100%;
+    height: 44px;
+  }
+  .contents{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #afb9cc;
+  }
+  .body-section{
+    width: 100%;
+  }
+  .OC-section,.design-lead-section,.project-lead-section,.Developer-section{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 16px;
+  }
+  .position{
+    width: 100%;
+    height: 64px;
+    padding: 0px;
+    margin-bottom: 16px;
+  }
+  .post{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: #f2f2f2;
+    text-align: left;
+  }
+  .post-holders{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .member-box{
+    width: 176px;
+    height: 200px;
+    background-color: #02050a;
+    padding: 12px 15px 16px 15px;
+    border: 1px solid #f2f2f2;
+    margin-right: 24px;
+    margin-bottom: 32px;
+  }
+  .member{
+    width: 146px;
+    height: 172px;
+  }
+  .member-name{
+    font-family: 'Space-grotesk';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.97px;
+    color: #f2f2f2;
+    margin-bottom: 8px;
+  }
+  .card{
+    width: 146px;
+    height: 141px;
+    perspective: 2000px;
+    position: relative;
+  }
+  .front,.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+  }
+  .front {
+    z-index: 2;
+  }
+  .back {
+    transform: rotateY(180deg);
+    
+  }
+  .card:hover .front {
+    transform: rotateY(180deg);
+  }
+  .card:hover .back {
+    transform: rotateY(0);
+  }

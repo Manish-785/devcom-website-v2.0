@@ -1,66 +1,80 @@
 .project-container{
     margin-top: 100px;
-    margin-left: 130px;
-    width: 984px;
+    margin-left: 11.5%;
+    width: 77%;
+    height: 432px;
     margin-bottom: 20px;
+    padding: 0px;
 }
 .project-head{
-    margin-bottom: 8px;
+    margin: 0px 0px 48px 0px;
+    display: flex;
+    flex-direction: row;
+    height: 64px;
 }
 .project{
     width: 86px;
     height: 38px;
-    border: 1px solid #D1CBB5;
+    border: 1px solid #f2f2f2;
     padding: 8px;
     margin-top: 13px;
 }
 .projects{
     font-family: 'Inter';
-    font-weight: 400;
+    font-weight: 700;
     font-size: 18px;
     line-height: 21.78px;
-    color: #D1CBB5;
+    color: #f2f2f2;
 }
 .arrow-buttons{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    padding: 0px;
+    width: 144px;
+    position: absolute;
+    right: 12%;
 }
 .arrow-left,.arrow-right{
     background-color: transparent;
     border: none;
     width: 64px;
     height: 64px;
+    padding: 0px;
+}
+.arrow-left{
+    margin-right: 16px;
 }
 .arrow-left svg{
-    width: 64px;
-    height: 64px;
-    fill: #D1CBB5;
-    margin-right: 8px;
+    width: 100%;
+    height: 100%;
+    fill: #f2f2f2;
+    margin-right: 16px;
 }
 .arrow-right svg{
-    width: 64px;
-    height: 64px;
-    fill: #D1CBB5;
-    margin-left: 8px;
+    width: 100%;
+    height: 100%;
+    fill: #f2f2f2;
 }
 .project-body{
+    margin-left: 0px;
+    margin-right: 0px;
     height: 320px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 .project-slider{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0;
     overflow-x: hidden;
+    white-space: nowrap;
 }
 .project-card{
-    width: 480px;
+    width: calc(50%-12px);
     height: 320px;
-    border: 1px solid #D1CBB5;
+    border: 1px solid #f2f2f2;
     padding: 16px;
     margin-right: 24px;
 }
@@ -68,24 +82,26 @@
     margin-right: 0px;
 }
 .project-title-box{
-    width: 448px;
+    width: 100%;
     height: 61px;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
 }
 .project-title{
     font-family: 'Space Grotesk';
     font-weight: 700;
     font-size: 48px;
     line-height: 61.25px;
-    color: #D1CBB5;
+    color: #f2f2f2;
     text-align: left;
 }
 .project-image-box{
-    margin-top: 2px;
-    width: 448px;
+    margin-top: 8px;
+    width: 100%;
     height: 219px;
 }
-img{
-    width: 448px;
+.project-img{
+    width: 100%;
     height: 219px;
+    margin-right: 0;
+    border-radius: 0px;
 }
