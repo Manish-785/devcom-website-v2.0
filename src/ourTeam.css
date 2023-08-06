@@ -84,6 +84,7 @@
     height: 141px;
     perspective: 2000px;
     position: relative;
+    background-color: #02050a;
   }
   .front,.back {
   width: 100%;
@@ -98,12 +99,28 @@
     z-index: 2;
   }
   .back {
-    transform: rotateY(180deg);
-    
+    transform: rotateY(180deg);  
   }
   .card:hover .front {
     transform: rotateY(180deg);
   }
   .card:hover .back {
     transform: rotateY(0);
+  }
+  .member-img{
+    width: 100%;
+    height: 100%;
+  }
+  .holder{
+    height: 48px;
+    width: 112px;
+    margin-top: 46.5px;
+    margin-left: 17px;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
   }
