@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import vector from "./Homepage_vector.png";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -24,21 +25,56 @@ function Home() {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Home
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 About
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Projects
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="team"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Team
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="connect"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
                 Connect
-              </a>
+              </Link>
             </div>
           </div>
         </div>

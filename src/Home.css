@@ -39,9 +39,14 @@
     text-align: center;
     width: 20%;
   }
-  /*.navbar-brand:hover, .nav-link:hover{
-    color: #f2f2f2;;
-  }*/
+  .nav-link:hover{
+    cursor: pointer;
+    color: #f2f2f2;
+  }
+  .navbar-brand:hover{
+    cursor: none;
+    color: #f2f2f2;
+  }
   .Home-page-content{
     margin-left: 11.5%;
     width: 77%;

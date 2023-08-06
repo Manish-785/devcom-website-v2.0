@@ -1,6 +1,10 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./Projects.css";
-import resobin from "./Resobin_img.png";
+import resobin from "./ResoBin.png";
+import messi from "./Mess I.png";
+import instiapp from "./InstiApp.png";
+import newbee from "./NewBee.png";
+import { Link } from "react-router-dom";
 
 function Projects() {
   const projectSliderRef = useRef(null);
@@ -80,7 +84,9 @@ function Projects() {
               <p className="project-title">Resobin</p>
             </div>
             <div className="project-image-box">
-              <img className="project-img" src={resobin} alt="resobin logo" />
+              <Link to="/resobin">
+                <img className="project-img" src={resobin} alt="resobin logo" />
+              </Link>
             </div>
           </div>
           <div className="project-card">
@@ -88,7 +94,13 @@ function Projects() {
               <p className="project-title">InstiApp</p>
             </div>
             <div className="project-image-box">
-              <img className="project-img" src={resobin} alt="resobin logo" />
+              <Link to="/instiapp">
+                <img
+                  className="project-img"
+                  src={instiapp}
+                  alt="resobin logo"
+                />
+              </Link>
             </div>
           </div>
           <div className="project-card">
@@ -96,7 +108,9 @@ function Projects() {
               <p className="project-title">Mess-I</p>
             </div>
             <div className="project-image-box">
-              <img className="project-img" src={resobin} alt="resobin logo" />
+              <Link to="/messi">
+                <img className="project-img" src={messi} alt="resobin logo" />
+              </Link>
             </div>
           </div>
           <div className="project-card last-card">
@@ -104,7 +118,9 @@ function Projects() {
               <p className="project-title">NewBee</p>
             </div>
             <div className="project-image-box">
-              <img className="project-img" src={resobin} alt="resobin logo" />
+              <Link to="/newbee">
+                <img className="project-img" src={newbee} alt="resobin logo" />
+              </Link>
             </div>
           </div>
         </div>

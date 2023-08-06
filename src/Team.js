@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Team.css";
 
 function Team() {
@@ -9,7 +10,9 @@ function Team() {
           <p className="teams">Team</p>
         </div>
         <div className="team-desc-button-box">
-          <button className="team-desc-button">Know the team</button>
+          <Link to="/ourteam">
+            <button className="team-desc-button">Know the team</button>
+          </Link>
         </div>
       </div>
       <div className="row team-section-body"></div>

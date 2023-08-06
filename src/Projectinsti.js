@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projectinsti.css";
+import { Link } from "react-router-dom";
 
 function Projectinsti() {
   return (
@@ -23,21 +24,21 @@ function Projectinsti() {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 About
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 Projects
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 Team
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 Connect
-              </a>
+              </Link>
             </div>
           </div>
         </div>

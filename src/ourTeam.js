@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurTeam.css";
+import { Link } from "react-router-dom";
 
 function OurTeam() {
   return (
@@ -23,21 +24,21 @@ function OurTeam() {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 About
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 Projects
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 Team
-              </a>
-              <a class="nav-link" href="#">
+              </Link>
+              <Link class="nav-link" to="/">
                 Connect
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -69,7 +70,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -82,7 +83,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -102,7 +103,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -115,7 +116,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -128,7 +129,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -141,7 +142,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -154,7 +155,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -167,7 +168,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -180,7 +181,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -200,7 +201,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -213,7 +214,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -233,7 +234,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -246,7 +247,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -259,7 +260,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -272,7 +273,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -285,7 +286,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -298,7 +299,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -311,7 +312,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -324,7 +325,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -337,7 +338,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -350,7 +351,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -363,7 +364,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -376,7 +377,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -389,7 +390,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -402,7 +403,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -415,7 +416,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -428,7 +429,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -441,7 +442,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -454,7 +455,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -467,7 +468,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -487,7 +488,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>
@@ -500,7 +501,7 @@ function OurTeam() {
                       <p>hello</p>
                     </div>
                     <div className="back">
-                      <p>mother-fucker!</p>
+                      <p>Hyy</p>
                     </div>
                   </div>
                 </div>

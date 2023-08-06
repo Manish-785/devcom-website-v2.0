@@ -1,10 +1,7 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Home";
-import About from "./About";
-import Projects from "./Projects";
-import Team from "./Team";
-import Connect from "./Connect";
+import Homepage from "./Homepage";
 import OurTeam from "./OurTeam";
 import Projectreso from "./Projectreso";
 import Projectinsti from "./Projectinsti";
@@ -14,16 +11,17 @@ import Projectnewbee from "./Projectnewbee";
 function App() {
   return (
     <>
-      <Home />
-      <About />
-      <Projects />
-      <Team />
-      <Connect />
-      <OurTeam />
-      <Projectreso />
-      <Projectinsti />
-      <Projectmessi />
-      <Projectnewbee />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/ourteam" element={<OurTeam />} />
+          <Route path="/resobin" element={<Projectreso />} />
+          <Route path="/instiapp" element={<Projectinsti />} />
+          <Route path="/messi" element={<Projectmessi />} />
+          <Route path="/newbee" element={<Projectnewbee />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
