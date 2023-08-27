@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 import image from "./About_img.png";
+import clrp from "./clrpick.png";
+import ter from "./terminal.png";
 
 function About() {
   return (
@@ -17,6 +19,11 @@ function About() {
               are committed to using our skills to eliminate the many
               frustrations that students face on a daily basis.
             </p>
+            <img
+              className="clrpicker_image"
+              src={clrp}
+              alt="an image of a color picker"
+            />
           </div>
           <div className="row About-work">
             <p className="About-work-title">What we do?</p>
@@ -28,6 +35,11 @@ function About() {
               all the academic resources, and Mess I, which streamlines the
               routines of mess.
             </p>
+            <img
+              className="terminal_image"
+              src={ter}
+              alt="an image of a terminal"
+            />
           </div>
         </div>
         <div className="image-column">

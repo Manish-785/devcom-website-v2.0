@@ -33,7 +33,7 @@
   .body-section{
     width: 100%;
   }
-  .OC-section,.design-lead-section,.project-lead-section,.Developer-section{
+  .OC-section,.design-lead-section,.project-lead-section,.Developers-section,.designers-section{
     width: 100%;
     margin: 0px;
     margin-bottom: 16px;
@@ -66,6 +66,7 @@
     border: 1px solid #f2f2f2;
     margin-right: 24px;
     margin-bottom: 32px;
+    display: block;
   }
   .member{
     width: 146px;
@@ -123,4 +124,33 @@
     width: 48px;
     height: 48px;
     margin-right: 16px;
+  }
+  .plus_icon{
+    display: none;
+  }
+  @media(max-width:768px){
+    .outer-team-container{
+      margin-left: 6%;
+      width: 88%;
+    }
+    .headings{
+      line-height: 72px;
+    }
+    .content{
+      height: fit-content;
+    }
+    .position{
+      height: 32px;
+      display: flex;
+      flex-direction: row;
+    }
+    .post{
+      font-size: 24px;
+      line-height: 30.62px;
+    }
+    .plus_icon{
+      display: block;
+      position: absolute;
+      right: 6%;
+    }
   }

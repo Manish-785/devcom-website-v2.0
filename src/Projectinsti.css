@@ -1,6 +1,7 @@
   .project-box{
     width: 77%;
     margin-left: 11.5%;
+    z-index: 0px;
   }
   .project-box-head{
     width: 100%;
@@ -31,6 +32,7 @@
     border-radius: 24px;
     background-color: #2d2d2d;
     margin-right: 32px;
+    z-index: 0px;
   }
   .project-name{
     width: 480px;
@@ -77,4 +79,47 @@
   }
   ul li{
     margin-bottom: 20px;
+  }
+  @media(max-width: 768px){
+    .project-box{
+      margin-left: 6%;
+      width: 88%;
+    }
+    .project-box-head{
+      height: 184px;
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    .project-logo{
+      flex-direction: column;
+    }
+    .project-image{
+      border-radius: 0px;
+      width: 96px;
+      height: 96px;
+      margin: 0px;
+    }
+    .project-name{
+      margin-top: 16px;
+    }
+    .project-link{
+      padding-top: 0px;
+      width: 183px;
+    }
+    .website-link{
+      width: 85px;
+      border: 1px solid #afb9cc;
+      color: #afb9cc;
+      font-weight: 400;
+      margin-right: 24px;
+    }
+    .github-link{
+      width: 74px;
+      border: 1px solid #afb9cc;
+      color: #afb9cc;
+      font-weight: 400;
+    }
+    .project-name{
+      line-height: 72px;
+    }
   }

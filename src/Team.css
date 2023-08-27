@@ -52,3 +52,32 @@
     background-color: #262626;
     margin: 48px 0px 12px 0px;
 }
+@media(max-width:768px){
+    .team-container{
+        margin-left: 6%;
+        width: 88%;
+        height: 688px;
+        margin-bottom: 80px;
+    }
+    .team-section-body{
+        height: 600px;
+        margin-top: 24px;
+    }
+    .team-section-head{
+        height: 64px;
+    }
+    .team{
+        margin-top: 13px;
+    }
+    .teams{
+        font-weight: 400;
+    }
+    .team-desc-button-box{
+        width: 46%;
+        right: 6%;
+    }
+    .team-desc-button{
+        height: 64px;
+        line-height: 22px;
+    }
+}

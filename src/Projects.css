@@ -116,3 +116,23 @@
         font-size: 36px;
     }
 }
+@media(max-width: 768px){
+    .project-container{
+        margin-top: 60px;
+        margin-left: 6%;
+        width: 88%;
+        height: 432px;
+    }
+    .project-head{
+        margin-bottom: 23px;
+    }
+    .projects{
+        font-weight: 400;
+    }
+    .arrow-buttons{
+        right: 6%;
+    }
+    .project-body{
+        height: 345px;
+    }
+}

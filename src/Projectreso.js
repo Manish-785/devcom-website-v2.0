@@ -6,10 +6,10 @@ function Projectreso() {
   return (
     <>
       <div className="top-bar"></div>
-      <nav class="navbar navbar-expand-sm">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            DevCom
+            <span className="title">DevCom</span>
           </a>
           <button
             class="navbar-toggler"

@@ -1,16 +1,34 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./Home.css";
 import vector from "./Homepage_vector.png";
+import cube from "./Black cube 2-02 1.png";
 import { Link } from "react-scroll";
 
 function Home() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const imageUrl = screenWidth < 768 ? cube : vector;
+
   return (
     <>
       <div className="top-bar"></div>
-      <nav class="navbar navbar-expand-sm">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            DevCom
+            <span className="title">DevCom</span>
           </a>
           <button
             class="navbar-toggler"
@@ -80,7 +98,9 @@ function Home() {
         </div>
       </nav>
       <div className="container Home-page-content">
-        <img className="Home-image" src={vector} alt="keyboard image" />
+        <p className="motto">Build Cool</p>
+        <p className="motto">Stuff</p>
+        <img className="Home-image" src={imageUrl} alt="keyboard image" />
       </div>
     </>
   );
