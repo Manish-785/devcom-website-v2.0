@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./OurTeam.css";
 import { Link } from "react-router-dom";
+import TeamMember from "./Teammember.js";
 import palash from "./members_images/Palash Mittal.jpg";
 import rahul from "./members_images/Rahul Kumar.jpg";
 import vidit from "./members_images/Vidit Khazanchi.jpeg";
@@ -127,70 +128,18 @@ function OurTeam() {
             </div>
             {(isCategoryExpanded("OCs") || screenWidth >= 768) && (
               <div className="post-holders">
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Adithya</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="adithya's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Palash</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={palash}
-                          alt="palash's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/palash-mittal-4224761bb">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/PalMit2002">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <TeamMember
+                  name="Adithya"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Palash"
+                  imageSrc={palash}
+                  linkedinLink="https://www.linkedin.com/in/palash-mittal-4224761bb"
+                  githubLink="https://github.com/PalMit2002"
+                />
               </div>
             )}
           </div>
@@ -209,230 +158,48 @@ function OurTeam() {
             </div>
             {(isCategoryExpanded("project-leads") || screenWidth >= 768) && (
               <div className="post-holders">
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Abhijat</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="abhijat's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Dheer</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="dheer's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Krishna</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="krishna's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Rahul</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={rahul}
-                          alt="rahul's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/rahul-kumar-b79b5b23a">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Sanskar</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="sanskar's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Vedant</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="vedant's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Vidit</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={vidit}
-                          alt="vidit's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://in.linkedin.com/in/viditkhazanchi">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/vk0812">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <TeamMember
+                  name="Abhijat"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Dheer"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Krishna"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Rahul"
+                  imageSrc={rahul}
+                  linkedinLink="https://www.linkedin.com/in/rahul-kumar-b79b5b23a"
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Sanskar"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Vedant"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Vidit"
+                  imageSrc={vidit}
+                  linkedinLink="https://in.linkedin.com/in/viditkhazanchi"
+                  githubLink="https://github.com/vk0812"
+                />
               </div>
             )}
           </div>
@@ -451,70 +218,18 @@ function OurTeam() {
             </div>
             {(isCategoryExpanded("design-leads") || screenWidth >= 768) && (
               <div className="post-holders">
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Chilyang</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="chilyang's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={behance}
-                              alt="behance logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Tanmay</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={tanmay}
-                          alt="tanmay's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://in.linkedin.com/in/tanmay-jain-a19916143">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://www.behance.net/tanmayjain15">
-                            <img
-                              className="logo"
-                              src={behance}
-                              alt="behance logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <TeamMember
+                  name="Chilyang"
+                  imageSrc={user}
+                  linkedinLink=""
+                  behanceLink=""
+                />
+                <TeamMember
+                  name="Tanmay"
+                  imageSrc={tanmay}
+                  linkedinLink="https://in.linkedin.com/in/tanmay-jain-a19916143"
+                  behanceLink="https://www.behance.net/tanmayjain15"
+                />
               </div>
             )}
           </div>
@@ -533,582 +248,114 @@ function OurTeam() {
             </div>
             {(isCategoryExpanded("devs") || screenWidth >= 768) && (
               <div className="post-holders">
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Akshat</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={akshat}
-                          alt="akshat's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/akshat-jain-069822250/">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/akshat1423/">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Aman</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="aman's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Amit</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={amit}
-                          alt="amit's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/amit-malakar-983175259">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/amitmalakariitb">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Ananya</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={ananya}
-                          alt="ananya's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/ananya-chavadhal-852656252">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/ananyac9">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Asmi</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={asmi}
-                          alt="asmi's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/asmi-rangnekar-066b07256">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/AsmiRangnekar">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Chaitanya</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={chaitanya}
-                          alt="chaitanya's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="http://www.linkedin.com/in/chaitanya-keshri">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/chaitanyakeshri">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Chinmay</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={chinmay}
-                          alt="chinmay's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/chinmay-tripurwar">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/Chinoscode111">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Dipayan</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={dipayan}
-                          alt="dipayan's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/dipayan-d-039015123">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/dd-002">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Harigovind</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={hari}
-                          alt="hari's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/harigovind-raghunath-024784252">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/HariRags">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Jatin</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={jatin}
-                          alt="jatin's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/jatin-singhal-734694246">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/PSYCHNERD2512">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Mahesh</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={mahesh}
-                          alt="mahesh's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/mahesh-kumar-prajapat-8687a5276">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/kumar-09">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Nivedha</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={nivedha}
-                          alt="nivedha's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/nivedha-g-2b4244253">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/gl-nivedha">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Omkar</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={omkar}
-                          alt="omkar's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/omkar-shirpure">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/SHIRPUREOMKAR">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Parth</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={parth}
-                          alt="parth's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/parth-batwara-24850125b">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/Parth9001">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Saurabh</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={saurabh}
-                          alt="saurabh's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/srbh001/">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/srbh001">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Shivam</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={shivam}
-                          alt="shivam's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/shivam-kumar-925012254">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="http://github.com/ShivamKr326">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Tanishka</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={tanishka}
-                          alt="tanishka's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/Tanishkakabra">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Tarus</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={tarus}
-                          alt="tarus's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="http://www.linkedin.com/in/tarus-pande-3209a1282">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://github.com/taruspande">
-                            <img
-                              className="logo"
-                              src={github}
-                              alt="github logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <TeamMember
+                  name="Akkshat"
+                  imageSrc={akshat}
+                  linkedinLink="https://www.linkedin.com/in/akshat-jain-069822250/"
+                  githubLink="https://github.com/akshat1423/"
+                />
+                <TeamMember
+                  name="Aman"
+                  imageSrc={user}
+                  linkedinLink=""
+                  githubLink=""
+                />
+                <TeamMember
+                  name="Amit"
+                  imageSrc={amit}
+                  linkedinLink="https://www.linkedin.com/in/amit-malakar-983175259"
+                  githubLink="https://github.com/amitmalakariitb"
+                />
+                <TeamMember
+                  name="Ananya"
+                  imageSrc={ananya}
+                  linkedinLink="https://www.linkedin.com/in/ananya-chavadhal-852656252"
+                  githubLink="https://github.com/ananyac9"
+                />
+                <TeamMember
+                  name="Asmi"
+                  imageSrc={asmi}
+                  linkedinLink="https://www.linkedin.com/in/asmi-rangnekar-066b07256"
+                  githubLink="https://github.com/AsmiRangnekar"
+                />
+                <TeamMember
+                  name="Chaitanya"
+                  imageSrc={chaitanya}
+                  linkedinLink="http://www.linkedin.com/in/chaitanya-keshri"
+                  githubLink="https://github.com/chaitanyakeshri"
+                />
+                <TeamMember
+                  name="Chinmay"
+                  imageSrc={chinmay}
+                  linkedinLink="https://www.linkedin.com/in/chinmay-tripurwar"
+                  githubLink="https://github.com/Chinoscode111"
+                />
+                <TeamMember
+                  name="Dipayan"
+                  imageSrc={dipayan}
+                  linkedinLink="https://www.linkedin.com/in/dipayan-d-039015123"
+                  githubLink="https://github.com/dd-002"
+                />
+                <TeamMember
+                  name="Hari"
+                  imageSrc={hari}
+                  linkedinLink="https://www.linkedin.com/in/harigovind-raghunath-024784252"
+                  githubLink="https://github.com/HariRags"
+                />
+                <TeamMember
+                  name="Jatin"
+                  imageSrc={jatin}
+                  linkedinLink="https://www.linkedin.com/in/jatin-singhal-734694246"
+                  githubLink="https://github.com/PSYCHNERD2512"
+                />
+                <TeamMember
+                  name="Mahesh"
+                  imageSrc={mahesh}
+                  linkedinLink="https://www.linkedin.com/in/mahesh-kumar-prajapat-8687a5276"
+                  githubLink="https://github.com/kumar-09"
+                />
+                <TeamMember
+                  name="Nivedha"
+                  imageSrc={nivedha}
+                  linkedinLink="https://www.linkedin.com/in/nivedha-g-2b4244253"
+                  githubLink="https://github.com/gl-nivedha"
+                />
+                <TeamMember
+                  name="Omkar"
+                  imageSrc={omkar}
+                  linkedinLink="https://www.linkedin.com/in/omkar-shirpure"
+                  githubLink="https://github.com/SHIRPUREOMKAR"
+                />
+                <TeamMember
+                  name="Parth"
+                  imageSrc={parth}
+                  linkedinLink="https://www.linkedin.com/in/parth-batwara-24850125b"
+                  githubLink="https://github.com/Parth9001"
+                />
+                <TeamMember
+                  name="Saurabh"
+                  imageSrc={saurabh}
+                  linkedinLink="https://www.linkedin.com/in/srbh001/"
+                  githubLink="https://github.com/srbh001"
+                />
+                <TeamMember
+                  name="Shivam"
+                  imageSrc={shivam}
+                  linkedinLink="https://www.linkedin.com/in/shivam-kumar-925012254"
+                  githubLink="http://github.com/ShivamKr326"
+                />
+                <TeamMember
+                  name="Tanishka"
+                  imageSrc={tanishka}
+                  linkedinLink="https://www.linkedin.com/in/parth-batwara-24850125b"
+                  githubLink="https://github.com/Tanishkakabra"
+                />
+                <TeamMember
+                  name="Tarus"
+                  imageSrc={tarus}
+                  linkedinLink="http://www.linkedin.com/in/tarus-pande-3209a1282"
+                  githubLink="https://github.com/taruspande"
+                />
               </div>
             )}
           </div>
@@ -1127,70 +374,18 @@ function OurTeam() {
             </div>
             {(isCategoryExpanded("degs") || screenWidth >= 768) && (
               <div className="post-holders">
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Sahil</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={sahil}
-                          alt="sahil's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link to="https://www.linkedin.com/in/sahil-chaudhary-097b3226b">
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link to="https://www.behance.net/sahildesignzz">
-                            <img
-                              className="logo"
-                              src={behance}
-                              alt="behance logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="member-box">
-                  <div className="member">
-                    <p className="member-name">Shreekar</p>
-                    <div className="card">
-                      <div className="front">
-                        <img
-                          className="member-img"
-                          src={user}
-                          alt="shreekar's image"
-                        />
-                      </div>
-                      <div className="back">
-                        <div className="holder">
-                          <Link>
-                            <img
-                              className="logo"
-                              src={linkedin}
-                              alt="linkedIn logo"
-                            />
-                          </Link>
-                          <Link>
-                            <img
-                              className="logo"
-                              src={behance}
-                              alt="behance logo"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <TeamMember
+                  name="Sahil"
+                  imageSrc={sahil}
+                  linkedinLink="https://www.linkedin.com/in/sahil-chaudhary-097b3226b"
+                  behanceLink="https://www.behance.net/sahildesignzz"
+                />
+                <TeamMember
+                  name="Shreekar"
+                  imageSrc={user}
+                  linkedinLink=""
+                  behanceLink=""
+                />
               </div>
             )}
           </div>

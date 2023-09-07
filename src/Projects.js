@@ -7,21 +7,24 @@ import newbee from "./NewBee.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
-  const projectSliderRef = useRef(null);
+  /*const projectSliderRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [cardWidth, setCardWidth] = useState(0);
-
-  const numVisibleCards = 2;
+  const [numVisibleCards, setNumVisibleCards] = useState(2);
+  const mobileBreakpoint = 768;
 
   const scrollProjectSlider = (scrollOffset) => {
-    setScrollPosition(
-      (prevScrollPosition) => prevScrollPosition + scrollOffset
-    );
-    projectSliderRef.current.scrollLeft += scrollOffset;
+    setScrollPosition((scrollPosition) => scrollPosition + scrollOffset);
+    projectSliderRef.current.scrollLeft += scrollOffset * cardWidth;
   };
-
   const handleResize = () => {
     if (projectSliderRef.current) {
+      const screenWidth = window.innerWidth;
+      if (screenWidth <= mobileBreakpoint) {
+        setNumVisibleCards(1); // For mobile, display one card at a time
+      } else {
+        setNumVisibleCards(2); // For desktop, display two cards at a time
+      }
       setCardWidth(projectSliderRef.current.offsetWidth / numVisibleCards);
     }
   };
@@ -33,7 +36,7 @@ function Projects() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [numVisibleCards]);*/
 
   return (
     <div className="container project-container">
@@ -45,8 +48,7 @@ function Projects() {
           <button
             className="arrow-left"
             onClick={() => {
-              console.log(-cardWidth);
-              scrollProjectSlider(-cardWidth);
+              /*scrollProjectSlider(-cardWidth);*/
             }}
           >
             <svg
@@ -60,10 +62,7 @@ function Projects() {
               <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
             </svg>
           </button>
-          <button
-            className="arrow-right"
-            onClick={() => scrollProjectSlider(cardWidth)}
-          >
+          <button className="arrow-right" onClick={() => {}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -78,8 +77,8 @@ function Projects() {
         </div>
       </div>
       <div className="row project-body">
-        <div className="project-slider" ref={projectSliderRef}>
-          <div className="project-card">
+        <div className="project-slider" /*ref={projectSliderRef}*/>
+          <div id="0" className="project-card">
             <div className="project-title-box">
               <p className="project-title">Resobin</p>
             </div>
@@ -89,7 +88,7 @@ function Projects() {
               </Link>
             </div>
           </div>
-          <div className="project-card">
+          <div id="1" className="project-card">
             <div className="project-title-box">
               <p className="project-title">InstiApp</p>
             </div>
@@ -103,7 +102,7 @@ function Projects() {
               </Link>
             </div>
           </div>
-          <div className="project-card">
+          <div id="2" className="project-card">
             <div className="project-title-box">
               <p className="project-title">Mess-I</p>
             </div>
@@ -113,7 +112,7 @@ function Projects() {
               </Link>
             </div>
           </div>
-          <div className="project-card last-card">
+          <div id="3" className="project-card last-card">
             <div className="project-title-box">
               <p className="project-title">NewBee</p>
             </div>

@@ -58,73 +58,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .member-box{
-    width: 176px;
-    height: 200px;
-    background-color: #02050a;
-    padding: 12px 15px 16px 15px;
-    border: 1px solid #f2f2f2;
-    margin-right: 24px;
-    margin-bottom: 32px;
-    display: block;
-  }
-  .member{
-    width: 146px;
-    height: 172px;
-  }
-  .member-name{
-    font-family: 'Space-grotesk';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22.97px;
-    color: #f2f2f2;
-    margin-bottom: 8px;
-  }
-  .card{
-    width: 146px;
-    height: 141px;
-    perspective: 2000px;
-    position: relative;
-    background-color: #02050a;
-  }
-  .front,.back {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-  transition: transform 0.5s;
-  }
-  .front {
-    z-index: 2;
-  }
-  .back {
-    transform: rotateY(180deg);  
-  }
-  .card:hover .front {
-    transform: rotateY(180deg);
-  }
-  .card:hover .back {
-    transform: rotateY(0);
-  }
-  .member-img{
-    width: 100%;
-    height: 100%;
-  }
-  .holder{
-    height: 48px;
-    width: 112px;
-    margin-top: 46.5px;
-    margin-left: 17px;
-    display: flex;
-    flex-direction: row;
-  }
-  .logo{
-    width: 48px;
-    height: 48px;
-    margin-right: 16px;
-  }
   .plus_icon{
     display: none;
   }
@@ -152,5 +85,6 @@
       display: block;
       position: absolute;
       right: 6%;
+      z-index: 0;
     }
   }
