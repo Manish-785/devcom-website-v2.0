@@ -88,6 +88,7 @@
     .project-box-head{
       height: 184px;
       margin-bottom: 16px;
+      z-index: -1;
     }
     .project-logo{
       flex-direction: column;
