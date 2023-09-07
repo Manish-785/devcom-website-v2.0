@@ -106,7 +106,7 @@
       width: 100%;
       border: 0px;
       font-size: 21px;
-      background-color: rgba(0, 0,0, 2.0);
+      background-color: rgba(0, 0,0, 0.6);
     }
     .motto{
       display: block;
@@ -121,7 +121,7 @@
       width:88%;
     }
     .Home-image{
-      height: 450px;
+      height: 400px;
     }
   }
   
