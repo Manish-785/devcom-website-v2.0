@@ -347,7 +347,7 @@ function OurTeam() {
                 <TeamMember
                   name="Tanishka"
                   imageSrc={tanishka}
-                  linkedinLink="https://www.linkedin.com/in/parth-batwara-24850125b"
+                  linkedinLink="https://www.linkedin.com/in/tanishka-kabra-392022283"
                   githubLink="https://github.com/Tanishkakabra"
                 />
                 <TeamMember
