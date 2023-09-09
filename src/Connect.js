@@ -16,24 +16,26 @@ function Connect() {
           <div className="links">
             <div className="social-handles">
               <div className="social-media Twitter">
-                <a href="#">Twitter</a>
+                <a href="https://twitter.com/devcom_iitb">Twitter</a>
               </div>
               <div className="social-media Instagram">
-                <a href="#">Instagram</a>
+                <a href="https://www.instagram.com/devcom.iitb/">Instagram</a>
               </div>
               <div className="social-media LinkedIn">
-                <a href="#">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/devcom-iit-bombay/mycompany/">
+                  LinkedIn
+                </a>
               </div>
               <div className="social-media Mail">
-                <a href="#">Mail</a>
+                <a href="mailto:devcom@iitb.ac.in">Mail</a>
               </div>
             </div>
             <div className="project-handles">
               <div className="projects-link InstiApp">
-                <a href="#">InstiApp</a>
+                <a href="https://insti.app/feed">InstiApp</a>
               </div>
               <div className="projects-link Resobin">
-                <a href="#">Resobin</a>
+                <a href="https://resobin.gymkhana.iitb.ac.in/">Resobin</a>
               </div>
               <div className="projects-link Mess-I">
                 <a href="#">Mess-I</a>

@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Homepage from "./Homepage";
-import OurTeam from "./OurTeam";
+import OurTeam from "./ourTeam";
 import Projectreso from "./Projectreso";
 import Projectinsti from "./Projectinsti";
 import Projectmessi from "./Projectmessi";
