@@ -1,7 +1,10 @@
   .project-box{
+    position: relative;
+    top: 100px;
     width: 77%;
     margin-left: 11.5%;
     z-index: 0px;
+    margin-bottom: 150px;
   }
   .project-box-head{
     width: 100%;
@@ -74,14 +77,18 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
-    line-height: 21.78px;
+    line-height: 23.78px;
     color: #afb9cc;
   }
   ul li{
     margin-bottom: 20px;
   }
   @media(max-width: 768px){
+    .navbar-nav{
+      z-index: 100;
+    }
     .project-box{
+      position: static;
       margin-left: 6%;
       width: 88%;
     }

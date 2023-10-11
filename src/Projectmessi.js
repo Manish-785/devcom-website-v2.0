@@ -1,48 +1,51 @@
 import React from "react";
-import "./Projectmessi.css";
+import "./Projectinsti.css";
+import Connect from "./Connect";
 import { Link } from "react-router-dom";
 
 function Projectmessi() {
   return (
     <>
       <div className="top-bar"></div>
-      <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <span className="title">DevCom</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-              <Link class="nav-link" to="/">
-                About
-              </Link>
-              <Link class="nav-link" to="/">
-                Projects
-              </Link>
-              <Link class="nav-link" to="/">
-                Team
-              </Link>
-              <Link class="nav-link" to="/">
-                Connect
-              </Link>
+      <div className="navbar-fixed">
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <span className="title">DevCom</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+                <Link class="nav-link" to="/">
+                  About
+                </Link>
+                <Link class="nav-link" to="/">
+                  Projects
+                </Link>
+                <Link class="nav-link" to="/">
+                  Team
+                </Link>
+                <Link class="nav-link" to="/">
+                  Connect
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <div className="project-box">
         <div className="project-box-head">
           <div className="project-logo">
@@ -102,6 +105,7 @@ function Projectmessi() {
           </p>
         </div>
       </div>
+      <Connect />
     </>
   );
 }

@@ -25,78 +25,80 @@ function Home() {
   return (
     <>
       <div className="top-bar"></div>
-      <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <span className="title">DevCom</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <Link
-                className="nav-link"
-                activeClass="active"
-                to="home"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Home
-              </Link>
-              <Link
-                className="nav-link"
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                About
-              </Link>
-              <Link
-                className="nav-link"
-                activeClass="active"
-                to="projects"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Projects
-              </Link>
-              <Link
-                className="nav-link"
-                activeClass="active"
-                to="team"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Team
-              </Link>
-              <Link
-                className="nav-link"
-                activeClass="active"
-                to="connect"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Connect
-              </Link>
+      <div className="navbar-fixed">
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <span className="title">DevCom</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <Link
+                  className="nav-link"
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  Home
+                </Link>
+                <Link
+                  className="nav-link"
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  About
+                </Link>
+                <Link
+                  className="nav-link"
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  Projects
+                </Link>
+                <Link
+                  className="nav-link"
+                  activeClass="active"
+                  to="team"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  Team
+                </Link>
+                <Link
+                  className="nav-link"
+                  activeClass="active"
+                  to="connect"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  Connect
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <div className="container Home-page-content">
         <p className="motto">Build Cool</p>
         <p className="motto">Stuff</p>

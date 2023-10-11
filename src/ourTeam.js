@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./ourTeam.css";
+import "./OurTeam.css";
 import { Link } from "react-router-dom";
 import TeamMember from "./Teammember.js";
 import palash from "./members_images/Palash Mittal.jpg";
