@@ -84,11 +84,8 @@
     margin-bottom: 20px;
   }
   @media(max-width: 768px){
-    .navbar-nav{
-      z-index: 100;
-    }
     .project-box{
-      position: static;
+      top: 120px;
       margin-left: 6%;
       width: 88%;
     }

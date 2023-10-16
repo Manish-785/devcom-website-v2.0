@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./OurTeam.css";
 import { Link } from "react-router-dom";
 import TeamMember from "./Teammember.js";
+import memberdata from "./record.yml";
 import palash from "./members_images/Palash Mittal.jpg";
 import rahul from "./members_images/Rahul Kumar.jpg";
 import vidit from "./members_images/Vidit Khazanchi.jpeg";
@@ -24,9 +25,6 @@ import saurabh from "./members_images/Saurabh Kumar.jpg";
 import shivam from "./members_images/Shivam Kumar.jpg";
 import tanishka from "./members_images/Tanishka Kabra.jpg";
 import tarus from "./members_images/Tarus Pande.jpg";
-import github from "./members_images/github_logo.jpg";
-import linkedin from "./members_images/linkedin_logo.jpg";
-import behance from "./members_images/behance_logo.jpg";
 import user from "./members_images/user.jpg";
 import plus from "./add.png";
 
@@ -249,7 +247,7 @@ function OurTeam() {
             {(isCategoryExpanded("devs") || screenWidth >= 768) && (
               <div className="post-holders">
                 <TeamMember
-                  name="Akkshat"
+                  name="Akshat"
                   imageSrc={akshat}
                   linkedinLink="https://www.linkedin.com/in/akshat-jain-069822250/"
                   githubLink="https://github.com/akshat1423/"

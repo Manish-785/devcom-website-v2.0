@@ -129,10 +129,13 @@
       line-height: 81.66px;
     }
     .Home-page-content{
+      top: 100px;
       margin-left: 6%;
       width:88%;
     }
     .Home-image{
+      position: absolute;
+      bottom: 40px;
       height: 400px;
     }
   }
