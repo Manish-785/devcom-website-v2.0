@@ -46,7 +46,7 @@ function Home() {
               <div class="navbar-nav">
                 <Link
                   className="nav-link"
-                  activeClass="active"
+                  activeClass="active-link"
                   to="home"
                   spy={true}
                   smooth={true}
@@ -56,7 +56,7 @@ function Home() {
                 </Link>
                 <Link
                   className="nav-link"
-                  activeClass="active"
+                  activeClass="active-link"
                   to="about"
                   spy={true}
                   smooth={true}
@@ -66,7 +66,7 @@ function Home() {
                 </Link>
                 <Link
                   className="nav-link"
-                  activeClass="active"
+                  activeClass="active-link"
                   to="projects"
                   spy={true}
                   smooth={true}
@@ -76,7 +76,7 @@ function Home() {
                 </Link>
                 <Link
                   className="nav-link"
-                  activeClass="active"
+                  activeClass="active-link"
                   to="team"
                   spy={true}
                   smooth={true}
@@ -86,7 +86,7 @@ function Home() {
                 </Link>
                 <Link
                   className="nav-link"
-                  activeClass="active"
+                  activeClass="active-link"
                   to="connect"
                   spy={true}
                   smooth={true}
