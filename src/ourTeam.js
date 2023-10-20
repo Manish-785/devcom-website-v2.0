@@ -3,9 +3,11 @@ import "./ourTeam.css";
 import { Link } from "react-router-dom";
 import TeamMember from "./Teammember.js";
 import record from "./record.json";
+import plus from "./add.png";
 
 function OurTeam() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [expandedSections, setExpandedSections] = useState({}); // New state to keep track of expanded sections
 
   function importAll(r) {
     let images = {};
@@ -30,6 +32,13 @@ function OurTeam() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  const toggleSection = (sectionName) => {
+    setExpandedSections((prev) => ({
+      ...prev,
+      [sectionName]: !prev[sectionName],
+    }));
+  };
 
   return (
     <>
@@ -89,8 +98,15 @@ function OurTeam() {
             <div className="row" key={idx}>
               <div className="position">
                 <p className="post">{sectionName}</p>
+                {screenWidth < 768 && (
+                  <img
+                    src={plus}
+                    alt="Expand"
+                    onClick={() => toggleSection(sectionName)}
+                  />
+                )}
               </div>
-              {screenWidth >= 768 && (
+              {(screenWidth >= 768 || expandedSections[sectionName]) && (
                 <div className="post-holders">
                   {record[sectionName].map((member, idx) => (
                     <TeamMember
