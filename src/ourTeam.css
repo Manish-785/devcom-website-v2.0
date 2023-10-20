@@ -1,90 +1,94 @@
-  .outer-team-container{
-    width: 77%;
-    margin-left: 11.5%;
-    padding: 0px;
+.outer-team-container {
+  width: 77%;
+  margin-left: 11.5%;
+  padding: 0px;
+}
+.head-section {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.heading {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 16px;
+}
+.headings {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #f2f2f2;
+}
+.content {
+  width: 100%;
+  height: 44px;
+}
+.contents {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #afb9cc;
+}
+.body-section {
+  width: 100%;
+}
+.OC-section,
+.design-lead-section,
+.project-lead-section,
+.Developers-section,
+.designers-section {
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 16px;
+}
+.position {
+  width: 100%;
+  height: 64px;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+.post {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  color: #f2f2f2;
+  text-align: left;
+}
+.post-holders {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.plus_icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .outer-team-container {
+    margin-left: 6%;
+    width: 88%;
   }
-  .head-section{
-    width: 100%;
-    margin-bottom: 24px;
+  .headings {
+    line-height: 72px;
   }
-  .heading{
-    width: 100%;
-    height: 64px;
-    margin-bottom: 16px;
+  .content {
+    height: fit-content;
   }
-  .headings{
-    font-family: 'Space Grotesk';
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
-    color: #f2f2f2;
-  }
-  .content{
-    width: 100%;
-    height: 44px;
-  }
-  .contents{
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #afb9cc;
-  }
-  .body-section{
-    width: 100%;
-  }
-  .OC-section,.design-lead-section,.project-lead-section,.Developers-section,.designers-section{
-    width: 100%;
-    margin: 0px;
-    margin-bottom: 16px;
-  }
-  .position{
-    width: 100%;
-    height: 64px;
-    padding: 0px;
-    margin-bottom: 16px;
-  }
-  .post{
-    font-family: 'Space Grotesk';
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 64px;
-    color: #f2f2f2;
-    text-align: left;
-  }
-  .post-holders{
-    width: 100%;
-    padding: 0px;
+  .position {
+    height: 32px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
   }
-  .plus_icon{
-    display: none;
+  .post {
+    font-size: 24px;
+    line-height: 30.62px;
   }
-  @media(max-width:768px){
-    .outer-team-container{
-      margin-left: 6%;
-      width: 88%;
-    }
-    .headings{
-      line-height: 72px;
-    }
-    .content{
-      height: fit-content;
-    }
-    .position{
-      height: 32px;
-      display: flex;
-      flex-direction: row;
-    }
-    .post{
-      font-size: 24px;
-      line-height: 30.62px;
-    }
-    .plus_icon{
-      display: block;
-      position: absolute;
-      right: 6%;
-      z-index: -1;
-    }
+  .plus_icon {
+    display: block;
+    position: absolute;
+    right: 6%;
+    z-index: -1;
   }
+}

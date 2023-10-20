@@ -1,0 +1,186 @@
+{
+  "Core Team": [
+    {
+      "name": "Adithya",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinlink": "",
+      "githublink": ""
+    },
+    {
+      "name": "Palash",
+      "imagesrc": "./members_images/Palash Mittal.jpg",
+      "linkedinlink": "https://www.linkedin.com/in/palash-mittal-4224761bb",
+      "githublink": "https://github.com/PalMit2002"
+    },
+    {
+      "name": "Abhijat",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinlink": "",
+      "githublink": ""
+    },
+    {
+      "name": "Dheer",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinlink": "",
+      "githublink": ""
+    },
+    {
+      "name": "Krishna",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinlink": "",
+      "githublink": ""
+    },
+    {
+      "name": "Rahul",
+      "imagesrc": "./members_images/Rahul Kumar.jpg",
+      "linkedinlink": "https://www.linkedin.com/in/rahul-kumar-b79b5b23a",
+      "githublink": ""
+    },
+    {
+      "name": "Sanskar",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinlink": "",
+      "githublink": ""
+    },
+    {
+      "name": "Tanmay",
+      "imagesrc": "./members_images/Tanmay Jain.jpg",
+      "linkedinlink": "https://in.linkedin.com/in/tanmay-jain-a19916143",
+      "behancelink": "https://www.behance.net/tanmayjain15"
+    },
+    {
+      "name": "Vedant",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinlink": "",
+      "githublink": ""
+    },
+    {
+      "name": "Vidit",
+      "imagesrc": "./members_images/Vidit Khazanchi.jpeg",
+      "linkedinlink": "https://in.linkedin.com/in/viditkhazanchi",
+      "githublink": "https://github.com/vk0812"
+    }
+  ],
+  "Developers and Designers": [
+    {
+      "name": "Akshat",
+      "imagesrc": "./members_images/Akshat Jain.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/akshat-jain-069822250/",
+      "githubLink": "https://github.com/akshat1423/"
+    },
+    {
+      "name": "Aman",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinLink": "",
+      "githubLink": ""
+    },
+    {
+      "name": "Amit",
+      "imagesrc": "./members_images/AMIT MALAKAR.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/amit-malakar-983175259",
+      "githubLink": "https://github.com/amitmalakariitb"
+    },
+    {
+      "name": "Ananya",
+      "imagesrc": "./members_images/Ananya Chavadhal.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/ananya-chavadhal-852656252",
+      "githubLink": "https://github.com/ananyac9"
+    },
+    {
+      "name": "Asmi",
+      "imagesrc": "./members_images/Asmi Rangnekar.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/asmi-rangnekar-066b07256",
+      "githubLink": "https://github.com/AsmiRangnekar"
+    },
+    {
+      "name": "Chaitanya",
+      "imagesrc": "./members_images/Chaitanya Keshri.jpg",
+      "linkedinLink": "http://www.linkedin.com/in/chaitanya-keshri",
+      "githubLink": "https://github.com/chaitanyakeshri"
+    },
+    {
+      "name": "Chinmay",
+      "imagesrc": "./members_images/Chinmay Tripurwar.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/chinmay-tripurwar",
+      "githubLink": "https://github.com/Chinoscode111"
+    },
+    {
+      "name": "Dipayan",
+      "imagesrc": "./members_images/Dipayan Das.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/dipayan-d-039015123",
+      "githubLink": "https://github.com/dd-002"
+    },
+    {
+      "name": "Hari",
+      "imagesrc": "./members_images/Harigovind Raghunath.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/harigovind-raghunath-024784252",
+      "githubLink": "https://github.com/HariRags"
+    },
+    {
+      "name": "Jatin",
+      "imagesrc": "./members_images/Jatin Singhal.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/jatin-singhal-734694246",
+      "githubLink": "https://github.com/PSYCHNERD2512"
+    },
+    {
+      "name": "Mahesh",
+      "imagesrc": "./members_images/Mahesh Kumar.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/mahesh-kumar-prajapat-8687a5276",
+      "githubLink": "https://github.com/kumar-09"
+    },
+    {
+      "name": "Nivedha",
+      "imagesrc": "./members_images/Nivedha G.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/nivedha-g-2b4244253",
+      "githubLink": "https://github.com/gl-nivedha"
+    },
+    {
+      "name": "Omkar",
+      "imagesrc": "./members_images/Omkar Shirpure.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/omkar-shirpure",
+      "githubLink": "https://github.com/SHIRPUREOMKAR"
+    },
+    {
+      "name": "Parth",
+      "imagesrc": "./members_images/Parth Batware.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/parth-batwara-24850125b",
+      "githubLink": "https://github.com/Parth9001"
+    },
+    {
+      "name": "Sahil",
+      "imagesrc": "./members_images/Sahil Choudhary.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/sahil-chaudhary-097b3226b",
+      "behanceLink": "https://www.behance.net/sahildesignzz"
+    },
+    {
+      "name": "Saurabh",
+      "imagesrc": "./members_images/Saurabh Kumar.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/srbh001/",
+      "githubLink": "https://github.com/srbh001"
+    },
+    {
+      "name": "Shivam",
+      "imagesrc": "./members_images/Shivam Kumar.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/shivam-kumar-925012254",
+      "githubLink": "http://github.com/ShivamKr326"
+    },
+    {
+      "name": "Shreekar",
+      "imagesrc": "./members_images/user.jpg",
+      "linkedinLink": "",
+      "behanceLink": ""
+    },
+    {
+      "name": "Tanishka",
+      "imagesrc": "./members_images/Tanishka Kabra.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/tanishka-kabra-392022283",
+      "githubLink": "https://github.com/Tanishkakabra"
+    },
+    {
+      "name": "Tarus",
+      "imagesrc": "./members_images/Tarus Pande.jpg",
+      "linkedinLink": "http://www.linkedin.com/in/tarus-pande-3209a1282",
+      "githubLink": "https://github.com/taruspande"
+    }
+  ]
+}
