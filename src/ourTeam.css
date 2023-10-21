@@ -1,7 +1,11 @@
+.gap {
+  padding-bottom: 20px;
+}
 .outer-team-container {
   width: 77%;
   margin-left: 11.5%;
   padding: 0px;
+  margin-top: 10.5%;
 }
 .head-section {
   width: 100%;
@@ -31,7 +35,7 @@
   color: #afb9cc;
 }
 .body-section {
-  width: 100%;
+  width: 110%;
 }
 .OC-section,
 .design-lead-section,

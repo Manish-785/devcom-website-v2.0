@@ -82,10 +82,10 @@
 }
 @media (min-width: 768px) {
   .top-bar {
-    height: 28px;
+    height: 10px;
     width: 100%;
     margin-bottom: 32px;
-    background-color: #2a2a2a;
+    background-color: #000000;
   }
 }
 @media (max-width: 768px) {

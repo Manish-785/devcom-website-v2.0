@@ -7,7 +7,7 @@ import plus from "./add.png";
 
 function OurTeam() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [expandedSections, setExpandedSections] = useState({}); // New state to keep track of expanded sections
+  const [expandedSections, setExpandedSections] = useState({});
 
   function importAll(r) {
     let images = {};
@@ -43,43 +43,45 @@ function OurTeam() {
   return (
     <>
       <div className="top-bar"></div>
-      <nav className="navbar navbar-expand-md">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <span className="title">DevCom</span>
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <Link className="nav-link" to="/">
-                Home
-              </Link>
-              <Link className="nav-link" to="/">
-                About
-              </Link>
-              <Link className="nav-link" to="/">
-                Projects
-              </Link>
-              <Link className="nav-link" to="/">
-                Team
-              </Link>
-              <Link className="nav-link" to="/">
-                Connect
-              </Link>
+      <div className="navbar-fixed">
+        <nav className="navbar navbar-expand-md">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              <span className="title">DevCom</span>
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav">
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+                <Link className="nav-link" to="/">
+                  About
+                </Link>
+                <Link className="nav-link" to="/">
+                  Projects
+                </Link>
+                <Link className="nav-link" to="/">
+                  Team
+                </Link>
+                <Link className="nav-link" to="/">
+                  Connect
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <div className="outer-team-container">
         <div className="head-section">
           <div className="heading">

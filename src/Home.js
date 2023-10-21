@@ -7,16 +7,24 @@ import { Link } from "react-scroll";
 
 function Home() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [blurAmount, setBlurAmount] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
     };
 
+    const handleScroll = () => {
+      const newBlur = Math.min(window.scrollY / 100, 4);
+      setBlurAmount(newBlur);
+    };
+
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -26,7 +34,10 @@ function Home() {
     <>
       <div className="top-bar"></div>
       <div className="navbar-fixed">
-        <nav class="navbar navbar-expand-md">
+        <nav
+          class="navbar navbar-expand-md"
+          style={{ backdropFilter: `blur(${blurAmount}px)` }}
+        >
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <span className="title">DevCom</span>
