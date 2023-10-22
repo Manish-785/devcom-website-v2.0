@@ -56,3 +56,11 @@
 .logo:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 768px) {
+  .member-box {
+    width: 43%;
+    height: 157.885px;
+    object-fit: cover;
+  }
+}

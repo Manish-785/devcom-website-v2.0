@@ -1,6 +1,3 @@
-.gap {
-  padding-bottom: 20px;
-}
 .outer-team-container {
   width: 77%;
   margin-left: 11.5%;
@@ -75,9 +72,16 @@
   margin-bottom: 15px;
 }
 @media (max-width: 768px) {
+  p {
+    margin-bottom: 0rem;
+  }
+  .body-section {
+    width: 100%;
+  }
   .outer-team-container {
     margin-left: 6%;
     width: 88%;
+    padding-top: 34.5%;
   }
   .headings {
     line-height: 72px;
@@ -89,15 +93,25 @@
     height: 32px;
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
   .post {
+    align-items: center;
     font-size: 24px;
-    line-height: 30.62px;
+    /* line-height: 30.62px; */
+  }
+  .post-holders {
+    margin-top: 8px;
+    margin-left: 12px;
+    /* margin-right: 24px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly between child elements */
   }
   .plus_icon {
     display: block;
-    position: absolute;
-    right: 6%;
-    z-index: -1;
+    align-self: center;
+    height: 24px;
+    z-index: 1;
   }
 }
