@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./NavBar.css";
+import { Link as RouterLink } from "react-router-dom";
 import { Link } from "react-scroll";
 // import DevComLogo from "./DC 3.svg";
 
@@ -101,56 +102,21 @@ function NavBar() {
                 }}
               >
                 <div class="navbar-nav">
-                  <Link
-                    className="nav-link"
-                    activeClass="active-link"
-                    to="home"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  <RouterLink to="/#home" className="nav-link">
                     Home
-                  </Link>
-                  <Link
-                    className="nav-link"
-                    activeClass="active-link"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  </RouterLink>
+                  <RouterLink to="/#about" className="nav-link">
                     About
-                  </Link>
-                  <Link
-                    className="nav-link"
-                    activeClass="active-link"
-                    to="projects"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  </RouterLink>
+                  <RouterLink to="/#projects" className="nav-link">
                     Projects
-                  </Link>
-                  <Link
-                    className="nav-link"
-                    activeClass="active-link"
-                    to="team"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  </RouterLink>
+                  <RouterLink to="/#team" className="nav-link">
                     Team
-                  </Link>
-                  <Link
-                    className="nav-link"
-                    activeClass="active-link"
-                    to="connect"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  </RouterLink>
+                  <RouterLink to="/#connect" className="nav-link">
                     Connect
-                  </Link>
+                  </RouterLink>
                 </div>
                 {/* <div className="devcom-svg-container">
                   <img src={DevComLogo} alt="Devcom Logo" />
