@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ourTeam.css";
-import { Link } from "react-router-dom";
 import TeamMember from "./Teammember.js";
 import record from "./record.json";
 import plus from "./add.png";
@@ -10,8 +9,6 @@ import NavBar from "./NavBar";
 function OurTeam() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [expandedSections, setExpandedSections] = useState({});
-  // const [blurAmount, setBlurAmount] = useState(0);
-  const [isExpanded, setIsExpanded] = useState(false);
 
   function importAll(r) {
     let images = {};
@@ -49,7 +46,6 @@ function OurTeam() {
       ...prev,
       [sectionName]: !prev[sectionName],
     }));
-    setIsExpanded((prevState) => !prevState);
   };
 
   return (
@@ -76,8 +72,8 @@ function OurTeam() {
                 {screenWidth < 768 && (
                   <img
                     className="plus_icon"
-                    src={isExpanded ? close : plus}
-                    alt={isExpanded ? "Collapse" : "Expand"}
+                    src={expandedSections[sectionName] ? close : plus}
+                    alt={expandedSections[sectionName] ? "Collapse" : "Expand"}
                     onClick={() => toggleSection(sectionName)}
                   />
                 )}
