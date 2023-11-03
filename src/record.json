@@ -20,7 +20,7 @@
     },
     {
       "name": "Dheer",
-      "imagesrc": "./members_images/monkey.jpeg",
+      "imagesrc": "./members_images/DheerBanker.jpg",
       "linkedinlink": "https://in.linkedin.com/in/dheer-banker",
       "githublink": "https://github.com/DheGit"
     },
@@ -115,7 +115,8 @@
       "imagesrc": "./members_images/hari.jpg",
       "linkedinLink": "https://www.linkedin.com/in/harigovind-raghunath-024784252",
       "githubLink": "https://github.com/HariRags"
-    }, {
+    },
+    {
       "name": "Harsh",
       "imagesrc": "./members_images/harsh.jpg",
       "linkedinLink": "https://www.linkedin.com/in/harshagrawal04/",
@@ -150,7 +151,8 @@
       "imagesrc": "./members_images/parth.jpg",
       "linkedinLink": "https://www.linkedin.com/in/parth-batwara-24850125b",
       "githubLink": "https://github.com/Parth9001"
-    },{
+    },
+    {
       "name": "Priyam",
       "imagesrc": "./members_images/priyam.jpeg",
       "linkedinLink": "",
