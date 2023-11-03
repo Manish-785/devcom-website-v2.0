@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Team.css";
+import ktm from "./members_images/knowtheteam.jpg";
 
 function Team() {
   return (
@@ -15,7 +16,9 @@ function Team() {
           </Link>
         </div>
       </div>
-      <div className="row team-section-body"></div>
+      <div className="row team-section-body">
+        <img src={ktm}></img>
+      </div>
     </div>
   );
 }

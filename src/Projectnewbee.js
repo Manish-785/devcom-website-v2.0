@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Projectinsti.css";
 import Connect from "./Connect";
 import NavBar from "./NavBar";
+import newbee from "./members_images/newbee.jpg";
 
 function Projectnewbee() {
   useEffect(() => {
@@ -14,7 +15,9 @@ function Projectnewbee() {
       <div className="project-box">
         <div className="project-box-head">
           <div className="project-logo">
-            <div className="project-image"></div>
+            <div className="project-image">
+              <img className="project-image" src={newbee}></img>
+            </div>
             <div className="project-name">
               <p>NewBee</p>
             </div>

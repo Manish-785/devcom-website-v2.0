@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Projectinsti.css";
 import Connect from "./Connect";
 import NavBar from "./NavBar";
+import messi from "./members_images/messi.jpg";
 
 function Projectmessi() {
   useEffect(() => {
@@ -14,7 +15,9 @@ function Projectmessi() {
       <div className="project-box">
         <div className="project-box-head">
           <div className="project-logo">
-            <div className="project-image"></div>
+            <div className="project-image">
+              <img className="project-image" src={messi}></img>
+            </div>
             <div className="project-name">
               <p>Mess I</p>
             </div>
