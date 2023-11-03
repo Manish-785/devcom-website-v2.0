@@ -3,8 +3,8 @@
     {
       "name": "Adithya",
       "imagesrc": "./members_images/user.jpg",
-      "linkedinlink": "",
-      "githublink": ""
+      "linkedinlink": "https://in.linkedin.com/in/k-adithya-krishna-29a13620a",
+      "githublink": "https://github.com/AdithyaKrishnaK"
     },
     {
       "name": "Palash",
@@ -14,33 +14,33 @@
     },
     {
       "name": "Abhijat",
-      "imagesrc": "./members_images/user.jpg",
-      "linkedinlink": "",
-      "githublink": ""
+      "imagesrc": "./members_images/abhijat.jpeg",
+      "linkedinlink": "https://in.linkedin.com/in/abhijat-bharadwaj-459b26227",
+      "githublink": "https://github.com/Keymii"
     },
     {
       "name": "Dheer",
       "imagesrc": "./members_images/user.jpg",
-      "linkedinlink": "",
-      "githublink": ""
+      "linkedinlink": "https://in.linkedin.com/in/dheer-banker",
+      "githublink": "https://github.com/DheGit"
     },
     {
       "name": "Krishna",
       "imagesrc": "./members_images/user.jpg",
-      "linkedinlink": "",
-      "githublink": ""
+      "linkedinlink": "https://in.linkedin.com/in/krishna-baldwa",
+      "githublink": "https://github.com/Krishna-Baldwa"
     },
     {
       "name": "Rahul",
       "imagesrc": "./members_images/Rahul Kumar.jpg",
       "linkedinlink": "https://www.linkedin.com/in/rahul-kumar-b79b5b23a",
-      "githublink": ""
+      "githublink": "https://github.com/kumarrahul33"
     },
     {
       "name": "Sanskar",
       "imagesrc": "./members_images/user.jpg",
-      "linkedinlink": "",
-      "githublink": ""
+      "linkedinlink": "https://in.linkedin.com/in/sanskargosavi",
+      "githublink": "https://github.com/SanskarGosavi2003"
     },
     {
       "name": "Tanmay",
@@ -51,12 +51,12 @@
     {
       "name": "Vedant",
       "imagesrc": "./members_images/user.jpg",
-      "linkedinlink": "",
-      "githublink": ""
+      "linkedinlink": "https://in.linkedin.com/in/vedant-thakre-64144822b",
+      "githublink": "https://github.com/VIBR0X"
     },
     {
       "name": "Vidit",
-      "imagesrc": "./members_images/Vidit Khazanchi.jpeg",
+      "imagesrc": "./members_images/Vidit.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/viditkhazanchi",
       "githublink": "https://github.com/vk0812"
     }
@@ -118,7 +118,7 @@
     },
     {
       "name": "Jatin",
-      "imagesrc": "./members_images/Jatin Singhal.jpeg",
+      "imagesrc": "./members_images/Jatin.jpg",
       "linkedinLink": "https://www.linkedin.com/in/jatin-singhal-734694246",
       "githubLink": "https://github.com/PSYCHNERD2512"
     },
