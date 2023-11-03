@@ -2,7 +2,7 @@
   "Core Team": [
     {
       "name": "Adithya",
-      "imagesrc": "./members_images/user.jpg",
+      "imagesrc": "./members_images/adithya.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/k-adithya-krishna-29a13620a",
       "githublink": "https://github.com/AdithyaKrishnaK"
     },
@@ -20,43 +20,43 @@
     },
     {
       "name": "Dheer",
-      "imagesrc": "./members_images/user.jpg",
+      "imagesrc": "./members_images/monkey.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/dheer-banker",
       "githublink": "https://github.com/DheGit"
     },
     {
       "name": "Krishna",
-      "imagesrc": "./members_images/user.jpg",
+      "imagesrc": "./members_images/krishna.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/krishna-baldwa",
       "githublink": "https://github.com/Krishna-Baldwa"
     },
     {
       "name": "Rahul",
-      "imagesrc": "./members_images/Rahul Kumar.jpg",
+      "imagesrc": "./members_images/rahul.jpg",
       "linkedinlink": "https://www.linkedin.com/in/rahul-kumar-b79b5b23a",
       "githublink": "https://github.com/kumarrahul33"
     },
     {
       "name": "Sanskar",
-      "imagesrc": "./members_images/user.jpg",
+      "imagesrc": "./members_images/sanskar.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/sanskargosavi",
       "githublink": "https://github.com/SanskarGosavi2003"
     },
     {
       "name": "Tanmay",
-      "imagesrc": "./members_images/Tanmay Jain.jpg",
+      "imagesrc": "./members_images/tanmay.jpg",
       "linkedinlink": "https://in.linkedin.com/in/tanmay-jain-a19916143",
       "behancelink": "https://www.behance.net/tanmayjain15"
     },
     {
       "name": "Vedant",
-      "imagesrc": "./members_images/user.jpg",
+      "imagesrc": "./members_images/vedant.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/vedant-thakre-64144822b",
       "githublink": "https://github.com/VIBR0X"
     },
     {
       "name": "Vidit",
-      "imagesrc": "./members_images/Vidit.jpeg",
+      "imagesrc": "./members_images/vidit.jpeg",
       "linkedinlink": "https://in.linkedin.com/in/viditkhazanchi",
       "githublink": "https://github.com/vk0812"
     }
@@ -64,61 +64,66 @@
   "Devs and Designers": [
     {
       "name": "Akshat",
-      "imagesrc": "./members_images/Akshat Jain.jpeg",
+      "imagesrc": "./members_images/akshat.jpeg",
       "linkedinLink": "https://www.linkedin.com/in/akshat-jain-069822250/",
       "githubLink": "https://github.com/akshat1423/"
     },
     {
       "name": "Aman",
-      "imagesrc": "./members_images/user.jpg",
+      "imagesrc": "./members_images/monkey.jpeg",
       "linkedinLink": "",
       "githubLink": ""
     },
     {
       "name": "Amit",
-      "imagesrc": "./members_images/AMIT MALAKAR.jpeg",
+      "imagesrc": "./members_images/amit.jpeg",
       "linkedinLink": "https://www.linkedin.com/in/amit-malakar-983175259",
       "githubLink": "https://github.com/amitmalakariitb"
     },
     {
       "name": "Ananya",
-      "imagesrc": "./members_images/Ananya Chavadhal.jpg",
+      "imagesrc": "./members_images/ananya.jpeg",
       "linkedinLink": "https://www.linkedin.com/in/ananya-chavadhal-852656252",
       "githubLink": "https://github.com/ananyac9"
     },
     {
       "name": "Asmi",
-      "imagesrc": "./members_images/Asmi Rangnekar.jpeg",
+      "imagesrc": "./members_images/asmi.jpeg",
       "linkedinLink": "https://www.linkedin.com/in/asmi-rangnekar-066b07256",
       "githubLink": "https://github.com/AsmiRangnekar"
     },
     {
       "name": "Chaitanya",
-      "imagesrc": "./members_images/Chaitanya Keshri.jpg",
+      "imagesrc": "./members_images/chaitanya.jpg",
       "linkedinLink": "http://www.linkedin.com/in/chaitanya-keshri",
       "githubLink": "https://github.com/chaitanyakeshri"
     },
     {
       "name": "Chinmay",
-      "imagesrc": "./members_images/Chinmay Tripurwar.jpg",
+      "imagesrc": "./members_images/chinmay.jpg",
       "linkedinLink": "https://www.linkedin.com/in/chinmay-tripurwar",
       "githubLink": "https://github.com/Chinoscode111"
     },
     {
       "name": "Dipayan",
-      "imagesrc": "./members_images/Dipayan Das.jpg",
+      "imagesrc": "./members_images/dipayan.jpg",
       "linkedinLink": "https://www.linkedin.com/in/dipayan-d-039015123",
       "githubLink": "https://github.com/dd-002"
     },
     {
       "name": "Hari",
-      "imagesrc": "./members_images/Harigovind Raghunath.jpeg",
+      "imagesrc": "./members_images/hari.jpg",
       "linkedinLink": "https://www.linkedin.com/in/harigovind-raghunath-024784252",
       "githubLink": "https://github.com/HariRags"
+    }, {
+      "name": "Harsh",
+      "imagesrc": "./members_images/harsh.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/harshagrawal04/",
+      "behanceLink": "https://www.behance.net/harshagrawal29"
     },
     {
       "name": "Jatin",
-      "imagesrc": "./members_images/Jatin.jpg",
+      "imagesrc": "./members_images/jatin.jpg",
       "linkedinLink": "https://www.linkedin.com/in/jatin-singhal-734694246",
       "githubLink": "https://github.com/PSYCHNERD2512"
     },
@@ -130,7 +135,7 @@
     },
     {
       "name": "Nivedha",
-      "imagesrc": "./members_images/Nivedha G.jpg",
+      "imagesrc": "./members_images/nivedha.jpg",
       "linkedinLink": "https://www.linkedin.com/in/nivedha-g-2b4244253",
       "githubLink": "https://github.com/gl-nivedha"
     },
@@ -142,37 +147,42 @@
     },
     {
       "name": "Parth",
-      "imagesrc": "./members_images/Parth Batware.jpeg",
+      "imagesrc": "./members_images/parth.jpg",
       "linkedinLink": "https://www.linkedin.com/in/parth-batwara-24850125b",
       "githubLink": "https://github.com/Parth9001"
+    },{
+      "name": "Priyam",
+      "imagesrc": "./members_images/priyam.jpeg",
+      "linkedinLink": "",
+      "behanceLink": ""
     },
     {
       "name": "Sahil",
-      "imagesrc": "./members_images/Sahil Choudhary.jpg",
+      "imagesrc": "./members_images/sahil.jpg",
       "linkedinLink": "https://www.linkedin.com/in/sahil-chaudhary-097b3226b",
       "behanceLink": "https://www.behance.net/sahildesignzz"
     },
     {
       "name": "Saurabh",
-      "imagesrc": "./members_images/Saurabh Kumar.jpg",
+      "imagesrc": "./members_images/saurabh.jpg",
       "linkedinLink": "https://www.linkedin.com/in/srbh001/",
       "githubLink": "https://github.com/srbh001"
     },
     {
       "name": "Shivam",
-      "imagesrc": "./members_images/Shivam Kumar.jpg",
+      "imagesrc": "./members_images/shivam.jpg",
       "linkedinLink": "https://www.linkedin.com/in/shivam-kumar-925012254",
       "githubLink": "http://github.com/ShivamKr326"
     },
     {
       "name": "Shreekar",
-      "imagesrc": "./members_images/user.jpg",
-      "linkedinLink": "",
+      "imagesrc": "./members_images/shreekar.jpeg",
+      "linkedinLink": "https://in.linkedin.com/in/shreekar-s-naik-1b655a270",
       "behanceLink": ""
     },
     {
       "name": "Tanishka",
-      "imagesrc": "./members_images/Tanishka Kabra.jpg",
+      "imagesrc": "./members_images/tanishka.jpg",
       "linkedinLink": "https://www.linkedin.com/in/tanishka-kabra-392022283",
       "githubLink": "https://github.com/Tanishkakabra"
     },
