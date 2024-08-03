@@ -38,10 +38,10 @@ function Connect() {
                 <a href="https://resobin.gymkhana.iitb.ac.in/">Resobin</a>
               </div>
               <div className="projects-link Mess-I">
-                <a href="#">Mess-I</a>
+                <a href="https://instamess.gymkhana.iitb.ac.in/">Mess-I</a>
               </div>
               <div className="projects-link NewBee">
-                <a href="#">NewBee</a>
+                <a href="https://gymkhana.iitb.ac.in/newbee/">NewBee</a>
               </div>
             </div>
           </div>
