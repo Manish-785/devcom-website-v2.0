@@ -22,13 +22,13 @@ function Projectnewbee() {
               <p>NewBee</p>
             </div>
           </div>
-          <div className="project-link">
-            <div className="website-link">
-              <a href="#">Website</a>
+          <div className="project-link-newbee">
+            <div className="website-link-newbee">
+              <a href="https://gymkhana.iitb.ac.in/newbee/">Website</a>
             </div>
-            <div className="github-link">
+            {/* <div className="github-link">
               <a href="#">Github</a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="project-box-body">

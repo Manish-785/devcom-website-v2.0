@@ -24,10 +24,10 @@ function Projectreso() {
           </div>
           <div className="project-link">
             <div className="website-link">
-              <a href="#">Website</a>
+              <a href="https://resobin.gymkhana.iitb.ac.in/">Website</a>
             </div>
             <div className="github-link">
-              <a href="#">Github</a>
+              <a href="https://github.com/DevCom-IITB/ResoBin">Github</a>
             </div>
           </div>
         </div>
