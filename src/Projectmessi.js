@@ -24,10 +24,10 @@ function Projectmessi() {
           </div>
           <div className="project-link">
             <div className="website-link">
-              <a href="#">Website</a>
+              <a href="https://instamess.gymkhana.iitb.ac.in/dashboard/">Website</a>
             </div>
             <div className="github-link">
-              <a href="#">Github</a>
+              <a href="https://github.com/DevCom-IITB/mess-i-dashboard">Github</a>
             </div>
           </div>
         </div>
