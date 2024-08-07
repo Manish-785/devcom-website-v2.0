@@ -121,7 +121,7 @@
   --max-width: 1100px;
 }
 
-@media only screen and (min-width: 768px) and (orientation: landscape) and (max-width: 1150px) {
+@media only screen and (min-width: 768px) and (orientation: landscape) and (max-width: 1050px) {
   .About-us{
     height: max-content;
     margin-bottom: 15px;
@@ -135,4 +135,14 @@
     height: max-content;
   }
 }
-  
+
+@media only screen and (min-width: 768px) and (orientation: landscape) and (max-width: 1150px){
+  .About-us{
+    height: max-content;
+    margin-bottom: 15px;
+  }
+  .About-work{
+    /* margin-top:10px; */
+    height:max-content;
+  }
+}
