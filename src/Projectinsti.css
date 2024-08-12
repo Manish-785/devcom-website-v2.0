@@ -43,7 +43,7 @@
   z-index: 0px;
 }
 .project-name {
-  width: 480px;
+  /* width: 480px; */
   height: 64px;
   margin-top: 40px;
   font-family: "Space Grotesk";
